@@ -14,10 +14,10 @@ export default function Contact() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Let's <span className="gradient-text">Connect</span>
+            Let&apos;s <span className="gradient-text">Connect</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-8">
-            Ready to automate your business processes? Let's discuss how AI can transform your workflows.
+            Ready to automate your business processes? Let&apos;s discuss how AI can transform your workflows.
           </p>
         </motion.div>
 
@@ -32,7 +32,7 @@ export default function Contact() {
             <div>
               <h3 className="text-2xl font-bold mb-4 text-neon-cyan">Get In Touch</h3>
               <p className="text-gray-300 mb-6">
-                I'm always open to discussing new projects, creative ideas, or opportunities to be part of your
+                I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your
                 vision.
               </p>
             </div>

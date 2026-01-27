@@ -26,19 +26,19 @@ export default function About() {
           className="space-y-6 text-lg text-gray-300 leading-relaxed"
         >
           <p>
-            Hi, I'm <span className="text-neon-cyan font-semibold">Tony Yaser</span>, a passionate full-stack developer
+            Hi, I&apos;m <span className="text-neon-cyan font-semibold">Tony Yaser</span>, a passionate full-stack developer
             with over <span className="text-neon-green font-semibold">6 years</span> of experience specializing in AI
             automation and intelligent systems.
           </p>
 
           <p>
-            I've helped dozens of companies grow and scale by building custom automation solutions that eliminate
+            I&apos;ve helped dozens of companies grow and scale by building custom automation solutions that eliminate
             repetitive manual work. My expertise spans web development, AI/ML integration, and creating intelligent
             agents that handle complex business workflows.
           </p>
 
           <p>
-            What drives me is solving real business problems. I've saved clients{" "}
+            What drives me is solving real business problems. I&apos;ve saved clients{" "}
             <span className="text-neon-green font-semibold">10,000+ hours</span> of manual work and{" "}
             <span className="text-neon-green font-semibold">$50,000+</span> in operational costs through intelligent
             automation.
@@ -59,7 +59,7 @@ export default function About() {
           </div>
 
           <p className="mt-6">
-            When I'm not coding, I'm constantly learning about the latest AI technologies and automation techniques. I
+            When I&apos;m not coding, I&apos;m constantly learning about the latest AI technologies and automation techniques. I
             believe that the future of business lies in intelligent automation that allows people to focus on what truly
             matters—building relationships, making strategic decisions, and growing their businesses.
           </p>
@@ -75,7 +75,7 @@ export default function About() {
               href="#contact"
               className="inline-block px-8 py-4 bg-neon-cyan text-dark-bg font-semibold rounded-lg text-lg hover:bg-neon-cyan/80 transition-all"
             >
-              Let's Work Together
+              Let&apos;s Work Together
             </a>
           </motion.div>
         </motion.div>

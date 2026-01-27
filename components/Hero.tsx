@@ -84,7 +84,7 @@ export default function Hero() {
             variants={textVariants}
             className="text-neon-cyan text-lg mb-4 font-mono"
           >
-            Hi, I'm
+            Hi, I&apos;m
           </motion.p>
           
           <motion.h1

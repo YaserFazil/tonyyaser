@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website Mockup - Tony Yaser</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #2C3E50;
+            background: #F5F7FA;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        header {
+            background: #fff;
+            padding: 20px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #1E3A5F;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: #2C3E50;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: #00BCD4;
+        }
+        
+        .cta-button {
+            background: #FF6B35;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #1E3A5F 0%, #2C3E50 100%);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 56px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        
+        .hero p {
+            font-size: 22px;
+            margin-bottom: 40px;
+            opacity: 0.9;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .hero-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+        
+        .btn-primary {
+            background: #FF6B35;
+            color: white;
+            padding: 16px 32px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            padding: 16px 32px;
+            border: 2px solid white;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+        }
+        
+        /* Stats Bar */
+        .stats {
+            background: white;
+            padding: 60px 0;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        
+        .stat-item h3 {
+            font-size: 48px;
+            color: #00BCD4;
+            margin-bottom: 10px;
+        }
+        
+        .stat-item p {
+            color: #2C3E50;
+            font-size: 16px;
+        }
+        
+        /* Problem/Solution Section */
+        .problem-solution {
+            padding: 80px 0;
+            background: white;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 42px;
+            margin-bottom: 60px;
+            color: #1E3A5F;
+        }
+        
+        .problem-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+        
+        .problem-card {
+            background: #F5F7FA;
+            padding: 30px;
+            border-radius: 12px;
+            border-left: 4px solid #FF6B35;
+        }
+        
+        .problem-card h3 {
+            color: #1E3A5F;
+            margin-bottom: 15px;
+        }
+        
+        /* Services Section */
+        .services {
+            padding: 80px 0;
+            background: #F5F7FA;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+        
+        .service-card {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .service-icon {
+            width: 60px;
+            height: 60px;
+            background: #00BCD4;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+        
+        .service-card h3 {
+            color: #1E3A5F;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+        
+        /* How It Works */
+        .how-it-works {
+            padding: 80px 0;
+            background: white;
+        }
+        
+        .steps {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .step {
+            text-align: center;
+            flex: 1;
+            position: relative;
+        }
+        
+        .step-number {
+            width: 60px;
+            height: 60px;
+            background: #00BCD4;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0 auto 20px;
+        }
+        
+        .step h3 {
+            color: #1E3A5F;
+            margin-bottom: 10px;
+        }
+        
+        /* Projects Section */
+        .projects {
+            padding: 80px 0;
+            background: #F5F7FA;
+        }
+        
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+        }
+        
+        .project-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        
+        .project-image {
+            height: 250px;
+            background: linear-gradient(135deg, #00BCD4 0%, #1E3A5F 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 18px;
+        }
+        
+        .project-content {
+            padding: 30px;
+        }
+        
+        .project-metrics {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .metric {
+            background: #F5F7FA;
+            padding: 15px;
+            border-radius: 8px;
+            flex: 1;
+        }
+        
+        .metric-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #00BCD4;
+        }
+        
+        /* Testimonials */
+        .testimonials {
+            padding: 80px 0;
+            background: white;
+        }
+        
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+        
+        .testimonial-card {
+            background: #F5F7FA;
+            padding: 30px;
+            border-radius: 12px;
+            border-top: 4px solid #00BCD4;
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 20px;
+            color: #2C3E50;
+        }
+        
+        .testimonial-author {
+            font-weight: 600;
+            color: #1E3A5F;
+        }
+        
+        /* Final CTA */
+        .final-cta {
+            padding: 100px 0;
+            background: linear-gradient(135deg, #1E3A5F 0%, #2C3E50 100%);
+            color: white;
+            text-align: center;
+        }
+        
+        .final-cta h2 {
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+        
+        .final-cta p {
+            font-size: 20px;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+        
+        /* Footer */
+        footer {
+            background: #2C3E50;
+            color: white;
+            padding: 60px 0 20px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-section h3 {
+            margin-bottom: 20px;
+        }
+        
+        .footer-section a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 36px;
+            }
+            
+            .services-grid,
+            .problem-grid,
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .steps {
+                flex-direction: column;
+                gap: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Tony Yaser</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#solutions">Solutions</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="#contact" class="cta-button">Get Started</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Transform Your Real Estate Business with AI Automation</h1>
+            <p>Custom AI agents and automation solutions that handle lead management, property operations, and client communication—so your team can focus on building relationships and closing deals.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn-primary">Get Free Assessment</a>
+                <a href="#projects" class="btn-secondary">View Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <section class="stats">
+        <div class="stat-item">
+            <h3>60-70%</h3>
+            <p>Time Saved on Manual Tasks</p>
+        </div>
+        <div class="stat-item">
+            <h3>99.9%</h3>
+            <p>Automation Accuracy</p>
+        </div>
+        <div class="stat-item">
+            <h3>25%</h3>
+            <p>More Volume, Same Team</p>
+        </div>
+        <div class="stat-item">
+            <h3>15 min</h3>
+            <p>vs 48hrs (Tenant Screening)</p>
+        </div>
+    </section>
+
+    <!-- Problem/Solution Section -->
+    <section class="problem-solution">
+        <div class="container">
+            <h2 class="section-title">Real Estate Pain Points We Solve</h2>
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <h3>⏰ Time Wasted</h3>
+                    <p>Agents spend 60-70% of time on manual data entry, email management, and document chasing instead of client-facing activities.</p>
+                </div>
+                <div class="problem-card">
+                    <h3>💰 Rising Costs</h3>
+                    <p>Operational overhead increases while teams struggle with disconnected workflows and information searching.</p>
+                </div>
+                <div class="problem-card">
+                    <h3>📉 Lead Leakage</h3>
+                    <p>Slow response times and ineffective follow-ups result in lost opportunities and revenue.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our AI Automation Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🤖</div>
+                    <h3>Lead Management Automation</h3>
+                    <p>24/7 AI chatbots qualify prospects, score leads automatically, and nurture relationships through personalized communication.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📄</div>
+                    <h3>Contract & Document Automation</h3>
+                    <p>Extract key terms, track deadlines, ensure compliance, and generate task lists in 60 seconds instead of 45 minutes.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏢</div>
+                    <h3>Property Management Automation</h3>
+                    <p>Automated rent collection, maintenance scheduling, tenant communication, and reporting—all in one intelligent system.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Discover</h3>
+                    <p>We analyze your workflows and identify automation opportunities</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Design</h3>
+                    <p>Custom AI agents tailored to your specific business needs</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Deploy</h3>
+                    <p>Seamless integration with your existing tools and systems</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Optimize</h3>
+                    <p>Continuous monitoring and improvement for maximum efficiency</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">Real Estate CRM Automation Dashboard</div>
+                    <div class="project-content">
+                        <h3>CRM Automation for Real Estate Agency</h3>
+                        <p>Automated lead scoring, follow-ups, and client communication workflows that reduced administrative time by 65%.</p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <div class="metric-value">65%</div>
+                                <div>Time Saved</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">3x</div>
+                                <div>More Leads</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">Property Management Automation System</div>
+                    <div class="project-content">
+                        <h3>Property Management Workflow Automation</h3>
+                        <p>Complete automation of tenant screening, maintenance requests, and rent collection for 500+ unit portfolio.</p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <div class="metric-value">15 min</div>
+                                <div>Screening Time</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">99.9%</div>
+                                <div>Accuracy</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Clients Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Tony's automation solution cut our administrative time in half. We can now focus on what we do best—helping clients find their perfect property."</p>
+                    <p class="testimonial-author">— Real Estate Broker</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"The tenant screening automation is a game-changer. What used to take 2 days now takes 15 minutes with better accuracy."</p>
+                    <p class="testimonial-author">— Property Manager</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"ROI was immediate. We're handling 25% more volume with the same team, and our clients love the faster response times."</p>
+                    <p class="testimonial-author">— Real Estate Agency Owner</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta" id="contact">
+        <div class="container">
+            <h2>Ready to Transform Your Business?</h2>
+            <p>Get a free automation assessment and discover how AI can save your team time and reduce costs.</p>
+            <!-- Calendly inline widget begin -->
+            <div class="calendly-inline-widget" data-url="https://calendly.com/tonyyaser/ai-automation-projects" style="min-width:320px;height:700px;"></div>
+            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+            <!-- Calendly inline widget end -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Tony Yaser</h3>
+                    <p>AI Automation Specialist helping real estate businesses streamline operations and reduce costs.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <a href="#services">Lead Management</a>
+                    <a href="#services">Contract Automation</a>
+                    <a href="#services">Property Management</a>
+                    <a href="#services">Custom AI Agents</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Email</a>
+                    <a href="#">GitHub</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Tony Yaser. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

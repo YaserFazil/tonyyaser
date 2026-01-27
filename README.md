@@ -1,65 +1,136 @@
 # Tony Yaser - Portfolio Website
 
-A modern portfolio website showcasing AI agent solutions and business automation services. This website highlights projects, services, and expertise in implementing automations that save businesses time and reduce costs.
+A modern, techy personal portfolio website showcasing AI automation projects and services. Built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion for smooth animations and interactions.
 
-## 🚀 About
+## 🚀 Features
 
-This portfolio website represents Tony's work in AI agents and business automation. Tony specializes in creating intelligent automation solutions that help businesses streamline operations, reduce manual work, and cut costs through innovative AI-powered systems allowing employees to focus on more business important side than boring manual tasks.
-
-## ✨ Features
-
-- **Project Showcase**: Display of completed automation projects and AI agent implementations
-- **Services Overview**: Detailed information about business automation services offered
-- **Modern UI/UX**: Clean, professional design optimized for user experience
-- **Responsive Design**: Fully responsive across all devices and screen sizes
-- **Performance Optimized**: Fast loading times and smooth interactions
+- **Techy Design**: Dark theme with neon accents (cyan, purple, green)
+- **Smooth Animations**: Framer Motion animations throughout
+- **Interactive Elements**: Hover effects, scroll animations, particle effects
+- **Responsive Design**: Fully responsive across all devices
+- **Performance Optimized**: Built with Next.js for optimal SEO and performance
+- **Personal Portfolio Style**: Focus on projects and personal story
 
 ## 🛠️ Tech Stack
 
-This is a frontend-only website built with modern web technologies. The specific tech stack will be determined during development.
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Deployment**: Vercel (recommended)
 
-## 📁 Project Structure
-
-```
-tonyyaser/
-├── README.md
-├── .gitignore
-└── [project files will be added here]
-```
-
-## 🚀 Getting Started
+## 📦 Getting Started
 
 ### Prerequisites
 
-- Node.js (if using a framework)
-- A modern web browser
+- Node.js 18+ and npm/yarn/pnpm
 
 ### Installation
 
+1. Clone the repository:
 ```bash
-# Clone the repository
 git clone https://github.com/YaserFazil/tonyyaser.git
-
-# Navigate to the project directory
 cd tonyyaser
-
-# Install dependencies (if applicable)
-npm install
 ```
 
-### Development
-
+2. Install dependencies:
 ```bash
-# Start development server (command will depend on chosen framework)
-npm start
+npm install
 # or
-npm run dev
+yarn install
+# or
+pnpm install
 ```
 
+3. Run the development server:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 🏗️ Project Structure
+
+```
+tonyyaser/
+├── app/
+│   ├── layout.tsx          # Root layout with metadata
+│   ├── page.tsx            # Homepage
+│   └── globals.css         # Global styles
+├── components/
+│   ├── Navigation.tsx      # Sticky navigation
+│   ├── Hero.tsx           # Hero section with particles
+│   ├── Stats.tsx          # Animated stats counter
+│   ├── Projects.tsx       # Featured projects showcase
+│   ├── Skills.tsx         # Skills and tech stack
+│   ├── Testimonials.tsx   # Client testimonials
+│   ├── About.tsx          # About section
+│   ├── Contact.tsx        # Contact with Calendly
+│   └── Footer.tsx         # Footer
+├── public/                # Static assets
+└── ...config files
+```
+
+## 🎨 Customization
+
+### Colors
+
+Edit `tailwind.config.ts` to customize the color scheme:
+- `dark-bg`: Main background color
+- `neon-cyan`: Primary accent color
+- `neon-purple`: Secondary accent color
+- `neon-green`: Success/accent color
+
+### Content
+
+- **Projects**: Edit `components/Projects.tsx` to update case studies
+- **Testimonials**: Edit `components/Testimonials.tsx` to update reviews
+- **About**: Edit `components/About.tsx` to update personal info
+- **Contact**: Update Calendly URL in `components/Contact.tsx`
+
+## 📝 Case Studies Featured
+
+1. **Real Estate Listings & Bookings Sync**
+   - 200-300 hours/month saved
+   - $8,000+/month cost reduction
+
+2. **AI Voice-Controlled Lender System**
+   - Complete loan management via voice commands
+   - Automated approvals and payments
+
+3. **AI Receptionist for Property Management**
+   - 24/7 call handling
+   - Automated booking management
+
+## 🚀 Deployment
+
+### Vercel (Recommended)
+
+1. Push your code to GitHub
+2. Import your repository on [Vercel](https://vercel.com)
+3. Deploy with one click
+
+### Other Platforms
+
+The site can be deployed to any platform that supports Next.js:
+- Netlify
+- AWS Amplify
+- Railway
+- Self-hosted
 
 ## 📧 Contact
 
-For inquiries about AI agent solutions and business automation services, please reach out through the contact form on the website.
+- **Email**: tonyyaser1@gmail.com
+- **Fiverr**: [tony_yaser](https://www.fiverr.com/tony_yaser)
+- **Calendly**: [Schedule a call](https://calendly.com/tonyyaser/ai-automation-projects)
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
 
 ---
 

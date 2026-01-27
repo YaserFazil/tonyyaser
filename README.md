@@ -4,7 +4,7 @@ A modern portfolio website showcasing AI agent solutions and business automation
 
 ## 🚀 About
 
-This portfolio website represents my work in AI agents and business automation. I specialize in creating intelligent automation solutions that help businesses streamline operations, reduce manual work, and cut costs through innovative AI-powered systems.
+This portfolio website represents Tony's work in AI agents and business automation. Tony specializes in creating intelligent automation solutions that help businesses streamline operations, reduce manual work, and cut costs through innovative AI-powered systems allowing employees to focus on more business important side than boring manual tasks.
 
 ## ✨ Features
 
@@ -56,13 +56,6 @@ npm start
 npm run dev
 ```
 
-## 📦 Repository Setup
-
-If you're setting up this repository for the first time, see [SETUP.md](./SETUP.md) for detailed instructions.
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 📧 Contact
 

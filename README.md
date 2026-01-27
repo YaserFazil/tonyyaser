@@ -112,7 +112,8 @@ Edit `tailwind.config.ts` to customize the color scheme:
 
 1. Push your code to GitHub
 2. Import your repository on [Vercel](https://vercel.com)
-3. Deploy with one click
+3. Add environment variable: `NEXT_PUBLIC_SITE_URL` with your domain (e.g., `https://tonyyaser.com`)
+4. Deploy with one click
 
 ### Other Platforms
 
@@ -121,6 +122,26 @@ The site can be deployed to any platform that supports Next.js:
 - AWS Amplify
 - Railway
 - Self-hosted
+
+**Important**: Set the `NEXT_PUBLIC_SITE_URL` environment variable to your actual domain URL for proper sitemap generation.
+
+## 🔍 SEO & Search Engines
+
+The website includes:
+- **Sitemap**: Automatically generated at `/sitemap.xml`
+- **Robots.txt**: Available at `/robots.txt`
+- **Meta tags**: Optimized for search engines
+
+To submit to search engines:
+1. **Google Search Console**: 
+   - Go to [Google Search Console](https://search.google.com/search-console)
+   - Add your property
+   - Submit your sitemap: `https://yourdomain.com/sitemap.xml`
+
+2. **Bing Webmaster Tools**:
+   - Go to [Bing Webmaster Tools](https://www.bing.com/webmasters)
+   - Add your site
+   - Submit your sitemap: `https://yourdomain.com/sitemap.xml`
 
 ## 📧 Contact
 

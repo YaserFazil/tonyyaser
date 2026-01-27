@@ -38,7 +38,7 @@ tonyyaser/
 
 ```bash
 # Clone the repository
-git clone https://github.com/[your-username]/tonyyaser.git
+git clone https://github.com/YaserFazil/tonyyaser.git
 
 # Navigate to the project directory
 cd tonyyaser
@@ -55,6 +55,10 @@ npm start
 # or
 npm run dev
 ```
+
+## 📦 Repository Setup
+
+If you're setting up this repository for the first time, see [SETUP.md](./SETUP.md) for detailed instructions.
 
 ## 📝 License
 

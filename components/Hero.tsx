@@ -84,7 +84,7 @@ export default function Hero() {
             variants={textVariants}
             className="text-neon-cyan text-lg mb-4 font-mono"
           >
-            Hi, I&apos;m
+            Hi, this is
           </motion.p>
           
           <motion.h1
@@ -100,9 +100,9 @@ export default function Hero() {
           >
             <TypewriterText
               texts={[
-                "I build AI agents that automate businesses",
-                "I create intelligent automation solutions",
-                "I turn manual work into smart systems",
+                "Helps businesses to automate their workflows",
+                "Creates intelligent automation solutions",
+                "Turns manual work into smart systems",
               ]}
             />
           </motion.div>

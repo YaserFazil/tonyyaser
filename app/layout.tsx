@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/tonyyasercom-og-image.png',
+        url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.tonyyaser.com'}/tonyyasercom-og-image.png`,
         width: 1200,
         height: 630,
         alt: 'Tony Yaser - AI Automation Specialist',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "Tony Yaser | AI Automation Specialist",
     description: "Personal portfolio showcasing AI agents and automation solutions. 7 years of experience building intelligent systems that save businesses time and reduce costs.",
-    images: ['/tonyyasercom-og-image.png'],
+    images: [`${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.tonyyaser.com'}/tonyyasercom-og-image.png`],
   },
   robots: {
     index: true,

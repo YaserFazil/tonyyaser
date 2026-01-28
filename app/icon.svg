@@ -1,0 +1,22 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="#0A0E27"/>
+  
+  <!-- Stylized "TY" monogram -->
+  <!-- T -->
+  <path d="M10 10 L10 14 M8 10 L12 10" 
+        stroke="#00F5FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Y -->
+  <path d="M18 10 L20 13 L20 15 M18 10 L16 13 L16 15 M18 12 L18 15" 
+        stroke="#00F5FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Tech accent - circuit pattern -->
+  <circle cx="24" cy="10" r="1.5" fill="#00FF88"/>
+  <circle cx="26" cy="13" r="1.5" fill="#B026FF"/>
+  <path d="M24 10 L26 13" stroke="#00F5FF" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Bottom tech line -->
+  <path d="M6 22 L10 24 L14 22 L18 24 L22 22 L26 24" 
+        stroke="#00F5FF" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+</svg>

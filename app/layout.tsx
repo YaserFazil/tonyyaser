@@ -7,8 +7,12 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Tony Yaser | AI Automation Specialist",
-  description: "Personal portfolio showcasing AI agents and automation solutions. 6 years of experience building intelligent systems that save businesses time and reduce costs.",
+  description: "Personal portfolio showcasing AI agents and automation solutions. 7 years of experience building intelligent systems that save businesses time and reduce costs.",
   keywords: ["AI automation", "AI agents", "business automation", "real estate automation", "Tony Yaser"],
+  icons: {
+    icon: '/icon.svg',
+    apple: '/icon.svg',
+  },
 };
 
 export default function RootLayout({

@@ -94,7 +94,7 @@ export default function Testimonials() {
 
               <div className="pt-4 border-t border-gray-700">
                 <div className="text-sm text-gray-400">
-                  <span className="text-neon-cyan">{testimonial.project}</span> • {testimonial.price}
+                  <span className="text-neon-cyan">{testimonial.project}</span>
                 </div>
               </div>
             </motion.div>

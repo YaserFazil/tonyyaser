@@ -71,7 +71,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="mt-8 p-6 bg-dark-card rounded-lg border border-neon-cyan/20">
+            <div className="mt-8 p-[1rem] bg-dark-card rounded-lg border border-neon-cyan/20">
               <h4 className="text-lg font-semibold mb-2 text-neon-cyan">Response Time</h4>
               <p className="text-gray-300 text-sm">Average response time: 1 hour</p>
             </div>
@@ -82,7 +82,7 @@ export default function Contact() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="bg-dark-card p-6 rounded-lg border border-neon-cyan/20"
+            className="bg-dark-card p-[1rem] rounded-lg border border-neon-cyan/20"
           >
             <h3 className="text-2xl font-bold mb-4 text-neon-cyan">Schedule a Call</h3>
             <p className="text-gray-300 mb-6 text-sm">

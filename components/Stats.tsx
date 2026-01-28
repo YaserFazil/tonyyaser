@@ -40,7 +40,7 @@ function AnimatedCounter({ value, suffix = "", prefix = "" }: { value: number; s
 
 export default function Stats() {
   const stats = [
-    { label: "Years Experience", value: 6, suffix: "+" },
+    { label: "Years Experience", value: 7, suffix: "+" },
     { label: "Projects Completed", value: 30, suffix: "+" },
     { label: "Hours Saved", value: 10000, suffix: "+" },
     { label: "Cost Reduction", value: 50, prefix: "$", suffix: "k+" },

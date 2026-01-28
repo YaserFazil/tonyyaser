@@ -32,7 +32,7 @@ export default function Contact() {
             <div>
               <h3 className="text-2xl font-bold mb-4 text-neon-cyan">Get In Touch</h3>
               <p className="text-gray-300 mb-6">
-                I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your
+                Tony is always open to discussing new projects, creative ideas, or opportunities to be part of your
                 vision.
               </p>
             </div>
@@ -73,7 +73,7 @@ export default function Contact() {
 
             <div className="mt-8 p-[1rem] bg-dark-card rounded-lg border border-neon-cyan/20">
               <h4 className="text-lg font-semibold mb-2 text-neon-cyan">Response Time</h4>
-              <p className="text-gray-300 text-sm">Average response time: 1 hour</p>
+              <p className="text-gray-300 text-sm">Average response time: 6-12 hours</p>
             </div>
           </motion.div>
 
@@ -86,7 +86,7 @@ export default function Contact() {
           >
             <h3 className="text-2xl font-bold mb-4 text-neon-cyan">Schedule a Call</h3>
             <p className="text-gray-300 mb-6 text-sm">
-              Book a free consultation to discuss your automation needs and see how I can help.
+              Schedule a call to discuss your automation needs and see how Tony can help.
             </p>
             <div 
               className="calendly-inline-widget" 

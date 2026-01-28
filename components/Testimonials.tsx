@@ -9,7 +9,7 @@ const testimonials = [
     rating: 5,
     text: "Excellent guy to work with! Good communication and fast delivery.",
     project: "API & Integrations",
-    price: "$200-$400",
+    // price: "$200-$400",
   },
   {
     name: "jonhatan_codein",
@@ -17,7 +17,7 @@ const testimonials = [
     rating: 5,
     text: "Tony Y did an AMAZING job on the software development project, exceeding all my expectations! Working with him was a pleasure due to his politeness and professionalism. Highly recommend! 👍",
     project: "Full Stack Web Applications",
-    price: "$100-$200",
+    // price: "$100-$200",
     repeat: true,
   },
   {
@@ -26,7 +26,7 @@ const testimonials = [
     rating: 5,
     text: "A self-taught and full-time developer who truly understood everything I asked and delivered perfectly. I'm sure I'll want to work together again in the future. Highly recommended!",
     project: "Full Stack Web Applications",
-    price: "Up to $50",
+    // price: "Up to $50",
   },
   {
     name: "xxobamacarexx",
@@ -34,7 +34,7 @@ const testimonials = [
     rating: 5,
     text: "Adept problem solver and very professional. Worked with him many times before and will continue to do so in the future. Hasn't let me down yet. He's straightforward and saves me a lot of headache in terms of having to deal with code, and as well as having to deal with other unsavory, unprofessional developers. I'm very happy that I can just go to him now.",
     project: "Full Stack Web Applications",
-    price: "$200-$400",
+    // price: "$200-$400",
     repeat: true,
   },
 ];
@@ -54,7 +54,7 @@ export default function Testimonials() {
             What Clients <span className="gradient-text">Say</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Real feedback from clients who&apos;ve worked with me
+            Real feedback from clients who&apos;ve worked with Tony
           </p>
         </motion.div>
 

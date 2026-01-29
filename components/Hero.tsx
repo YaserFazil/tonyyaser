@@ -134,7 +134,7 @@ export default function Hero() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Get In Touch
+              Book Your Automation Audit
             </motion.a>
           </motion.div>
         </motion.div>

@@ -63,7 +63,7 @@ export default function Navigation() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Get In Touch
+            Book a Call Now
           </motion.a>
         </div>
       </div>
